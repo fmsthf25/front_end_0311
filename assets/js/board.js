@@ -9,7 +9,7 @@ const getData = async () => {
     //const API_URL = "http://localhost:8081/api/board/list";
 
     // 배포용
-    const API_URL = "//api/board/list";
+    const API_URL = "/api/board/list";
 
     let res = await fetch(API_URL);
     let data = await res.json();
